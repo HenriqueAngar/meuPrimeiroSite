@@ -1,0 +1,42 @@
+.contato__inputs{
+    margin: 2rem;
+    width:30%;
+}
+
+.contato__titulo, .contato__info{
+    color: #404040;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin: 0 1.5rem 2rem;
+}
+
+.contato__titulo{
+    font-size: 3rem;
+}
+
+.contato__info{
+    text-align: justify;
+}
+
+@media screen and (max-width: 1024px){
+    .contato__inputs{
+        margin: 2rem auto;
+    }
+
+    .contato__titulo{
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .contato__info{
+        font-size: 1rem;
+        
+    }
+}
+
+@media screen and (max-width: 765px){
+    .contato__inputs{
+        width:100%;
+    }
+}

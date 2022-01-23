@@ -1,0 +1,22 @@
+.motivos__imagem-img{
+    max-width: 45%;
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    width: auto;
+}
+
+@media screen and (max-width: 1025px){
+    .motivos__imagem-img{
+        left: 400px;
+        position: absolute;
+        left: 50%;
+        top: 200px;
+    }
+}
+
+@media screen and (max-width:765px){
+    .motivos__imagem-img{
+        display: none;
+    }
+}

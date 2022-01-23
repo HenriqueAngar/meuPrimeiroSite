@@ -1,0 +1,7 @@
+.sobre__conteudo{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    position: relative;
+    width:80%;
+}

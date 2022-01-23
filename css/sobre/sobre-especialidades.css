@@ -1,0 +1,21 @@
+.sobre__titulo-lista{
+    color: #e5e5e5;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.75rem;
+    margin-bottom: 1rem;
+}
+
+.sobre__item{
+    color: #282828;
+    font-family: 'Merriweather', sans-serif;
+    font-size:1.25rem;
+    margin-left: 0.75rem;
+    margin-bottom: 0.95rem;
+}
+
+@media screen and (max-width: 765px){
+    .sobre__especialidades{
+        margin-top: 0.5rem;
+        text-align: center;
+    }
+}

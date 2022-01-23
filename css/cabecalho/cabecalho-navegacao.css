@@ -1,0 +1,12 @@
+.cabecalho__navegacao ul{
+    display: inline-flex;
+    flex-direction: row;
+}
+
+@media screen and (max-width:1000px){
+    .cabecalho__navegacao{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+}

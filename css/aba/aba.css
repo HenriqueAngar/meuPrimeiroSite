@@ -1,0 +1,43 @@
+.aba__hidden{
+    background: rgba(255,255,255,0.8);
+    height: 800px;
+    position: absolute;
+    top: 900px;
+    width: 100vw;
+}
+
+.aba__box{
+    background: #e09f3d;
+    border: 15px solid #e5e5e5;
+    border-radius: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10rem auto;
+    width:712px;
+}
+
+@media screen and (max-width: 1024px){
+    .aba__hidden{
+        height:1075px;
+        top:1430px
+    }
+}
+
+@media screen and (max-width: 768px){
+    .aba__hidden{
+        height:2100px;
+    }
+
+    .aba__box{
+        flex-direction: column;
+        justify-content: center;
+        width:fit-content;
+    }
+}
+
+@media screen and (max-width: 750px){
+    .aba__hidden{
+        top:1400px;
+    }
+}

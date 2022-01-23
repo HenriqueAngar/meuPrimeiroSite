@@ -1,0 +1,11 @@
+.cabecalho__links{
+    position:absolute;
+    bottom: 0;
+}
+
+@media screen and (max-width:1000px){
+    .cabecalho__links{
+        position:relative;
+        margin-top: 15px;
+    }
+}

@@ -1,0 +1,49 @@
+.qualidades__vetores{
+    align-items: center;
+    background: #e09f3d;
+    display: inline-flex;
+    justify-content: center;
+    position:relative;
+    top: -410px;
+    z-index: -1;  
+}
+
+.qualidades__esquerda{
+    padding-right: 200px;
+    position:relative;
+    right: 3.75%;
+    text-align: right;
+}
+
+.qualidades__direita{
+    padding-left: 200px;
+}
+
+@media screen and (max-width: 1024px){
+    .qualidades__vetores{
+        top:0;
+    }
+    .qualidades__direita{
+        padding-left: 15px;
+    }
+    .qualidades__esquerda{
+        left:2.5%;
+        padding-right: 15px;
+    }
+}
+
+@media screen and (max-width: 765px){
+    .qualidades__vetores{
+        display: block;
+        margin: 0 auto;
+    }
+
+    .qualidades__direita{
+        padding-left: 10px;
+        ;
+    }
+    .qualidades__esquerda{
+        padding: 0;
+        left: -10px;
+    }
+}

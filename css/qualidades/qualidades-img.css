@@ -1,0 +1,13 @@
+.qualidades__img{
+    margin: 0 auto;
+    max-width: 600px;
+    position: relative;
+    right: 4.5%;
+    width: auto;
+}
+
+@media screen and (max-width: 1024px){
+    .qualidades__img{
+        display: none;
+    }
+}

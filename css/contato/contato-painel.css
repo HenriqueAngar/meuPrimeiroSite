@@ -1,0 +1,36 @@
+.contato__painel{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contato__bloco{
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.contato__link{
+    color: #e5e5e5;
+    text-decoration: none;
+}
+
+.contato__img{
+    max-height: 100px;
+    max-width: 100PX;
+    height: auto;
+    width: auto;
+    transition: 0.5s;
+}
+
+.contato__img:hover{
+    transform: scale(1.25);
+}
+
+.contato__contato{
+    font-family: 'Merriweather', sans-serif;
+    font-size: 1rem;
+}
+

@@ -1,0 +1,34 @@
+.sobre{
+    background: #e09f3d;
+    border: 20px solid #e5e5e5;
+    display: flex;
+    flex-direction: row;
+    height:750px;
+    margin: auto;
+    width:calc(100% -30px);
+}
+
+.sobre__img{
+    background-image: url(/imagens/desempregado.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 650px;
+    margin: auto 40px;
+    width: 90%;
+}
+
+@media screen and (max-width: 1024px){
+    .sobre{
+        flex-direction: column;
+        height: 1200px;
+        margin:0;
+        width: calc(99% -30px);
+    }
+
+    .sobre__img{
+        border-radius: 0;
+        margin:0;
+        max-width:calc(98% -30px);
+        width: auto;
+    }
+}

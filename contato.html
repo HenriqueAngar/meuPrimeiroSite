@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Contato | Hangar Engenharia</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <!--Estilos Gerais-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Ubuntu:wght@300;400;500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/reset.css">
+
+        <!--Estilos Cabeçalho-->
+        <link rel="stylesheet" href="css/cabecalho/cabecalho.css">
+        <link rel="stylesheet" href="css/cabecalho/cabecalho-link.css">
+        <link rel="stylesheet" href="css/cabecalho/cabecalho-links.css">
+        <link rel="stylesheet" href="css/cabecalho/cabecalho-logo.css">
+        <link rel="stylesheet" href="css/cabecalho/cabecalho-midia.css">
+        <link rel="stylesheet" href="css/cabecalho/cabecalho-midias.css">
+        <link rel="stylesheet" href="css/cabecalho/cabecalho-navegacao.css">
+
+        <!--Estilos Contato-->
+        <link rel="stylesheet" href="css/contato/contato.css">
+        <link rel="stylesheet" href="css/contato/contato-alternativas.css">
+        <link rel="stylesheet" href="css/contato/contato-form.css">
+        <link rel="stylesheet" href="css/contato/contato-inputs.css">
+        <link rel="stylesheet" href="css/contato/contato-painel.css">
+
+        <!--Estilos Rodape-->
+        <link rel="stylesheet" href="css/rodape/rodape.css">
+        <link rel="stylesheet" href="css/rodape/rodape-logo.css">
+        <link rel="stylesheet" href="css/rodape/rodape-texto.css">
+
+    </head>
+    <body>
+        <header class="cabecalho">
+
+            <img class="cabecalho__logo" src="imagens/logo.jpg" alt="logotipo hangar engenharia">
+
+            <nav class="cabecalho__navegacao">
+
+                <ul class="cabecalho__links">
+                    <li class="cabecalho__link"><a href="index.html">HOME</a></li>
+                    <li class="cabecalho__link"><a href="sobre.html">SOBRE</a></li>
+                    <li class="cabecalho__link"><a href="contato.html">CONTATO</a></li>
+                </ul>
+
+                <ul class="cabecalho__midias">
+                    <li class="cabecalho__midia"><a href="https://m.facebook.com/search/top/?q=henrique%20angar&tsid=0.48433884362055557&source=result"><img class="cabecalho__midia-img" src="imagens/face.png" alt="icone link para o facebook da hangar engenharia"></a></li>
+                    <li class="cabecalho__midia"><a href="https://www.linkedin.com/in/henrique-angar-15166179/"><img class="cabecalho__midia-img" src="imagens/link.png" alt="icone link para o linkedin da hangar engenharia"></a></li>
+                    <li class="cabecalho__midia"><a href="https://www.instagram.com/henriqueangar/"><img class="cabecalho__midia-img" src="imagens/insta.png" alt="icone link para o instagram da hangar engenharia"></a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="contato">
+                <div class="contato__inputs">
+                    <h1 class="contato__titulo">Contato</h1>
+                    <h2 class="contato__info">Para entrar em contato basta preencher os campos abaixo, ou clicar nas opções alternativas:</h2>
+                    <form class="contato__form">
+
+                        <label for="nomeSobrenome" class="contato__label"> Nome e Sobrenome</label>
+                        <input type="text" id="nomeSobrenome" class="contato__input" required size="40">
+
+                        <label for="email" class="contato__label">Email</label>
+                        <input type="email" id="email" class="contato__input" required placeholder="seuEmail@dominio.com" size="40">
+
+                        <label for="fone" class="contato__label"> Telefone</label>
+                        <input type="tel" id="fone" class="contato__input" required placeholder="(XX) xxxxx-xxxx">
+
+                        <label for="mensagem" class="contato__label">Digite Sua Mensagem</label>
+                        <textarea cols="40" rows="10" id="mensagem" class="contato__input" required></textarea>
+
+                        <input type="submit" value="Enviar formulário" class="contato__enviar">
+                    </form>
+                </div>
+
+                <div class="contato__alternativas">
+                    <div class="contato__faixa"></div>
+
+                    <div class="contato__blackboard">
+
+                        <h2 class="contato__alternativos">Contatos Alternativos</h2>
+                        <div class="contato__painel">
+
+                            <div class="contato__bloco">
+                                <a href="https://api.whatsapp.com/send?phone=555197671222" class="contato__link">
+                                    <img src="imagens/what.png" alt="botão de contatar via whatsapp" class="contato__img">
+                                    <p class="contato__contato">Nosso whatsapp<br>(51) 97671222</p>
+                                </a>
+                            </div>
+
+                            <div class="contato__bloco">
+                                <a href="tel:5551997671222" class="contato__link">
+                                    <img src="imagens/fone.png" alt="botão de contatar via telefone" class="contato__img">
+                                    <p class="contato__contato">Nosso telefone<br>(51) 99767-1222</p>
+                                </a>
+                            </div>
+
+                            <div class="contato__bloco">
+                                <a href="mailto:devhenriqueangar@gmail.com" class="contato__link">
+                                    <img src="imagens/email.png" alt="botão de contatar via email" class="contato__img">
+                                    <p class="contato__contato">Nosso Email<br>contao@hangareng.com</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="rodape">
+            <img src="imagens/logo2.png" alt="Logotipo da Hangar Engenharia" class="rodape__logo">
+            <p class="rodape__texto">&copy Henrique Angar - 2021</p>
+        </footer>
+    </body>
+</html>

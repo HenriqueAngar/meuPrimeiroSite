@@ -1,0 +1,25 @@
+.qualidades__texto{
+    color: #f9f9f9;
+    font-family: 'Ubuntu', sans-serif;
+    margin: auto 30px;
+}
+
+.qualidades__qualidade{
+    font-size: 1.675rem;
+}
+
+.qualidades__descricao{
+    font-size: 1.33rem;
+    margin-top: 25px;
+}
+
+@media screen and (max-width: 1024px){
+    .qualidades__qualidade{
+        font-size: 1.25rem;
+    }
+
+    .qualidades__descricao{
+        font-size: 1rem;
+        margin-top: 10px;
+    }
+}

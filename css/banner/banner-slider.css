@@ -1,0 +1,44 @@
+.banner__slider{
+    display: flex;
+    width: 400%;
+}
+
+.banner__slider input{
+    display: none;
+}
+
+#radio1:checked ~ .primeiro{
+    margin-left: 0.04%;
+    transition: 1s;
+}
+#radio2:checked ~ .primeiro{
+    margin-left: -25.4%;
+    transition: 1s;
+}
+#radio3:checked ~ .primeiro{
+    margin-left: -50.5%;
+    transition: 1s;
+}
+#radio4:checked ~ .primeiro{
+    margin-left: -76%;
+    transition: 1s;
+}
+
+@media screen and (max-width: 1000px){
+    #radio1:checked ~ .primeiro{
+        margin-left: 0.03%;
+        transition: 1s;
+    }
+    #radio2:checked ~ .primeiro{
+        margin-left: -24.92%;
+        transition: 1s;
+    }
+    #radio3:checked ~ .primeiro{
+        margin-left: -49.97%;
+        transition: 1s;
+    }
+    #radio4:checked ~ .primeiro{
+        margin-left: -75%;
+        transition: 1s;
+    }
+}

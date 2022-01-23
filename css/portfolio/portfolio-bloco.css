@@ -1,0 +1,39 @@
+.portfolio__bloco{
+    background: #e09f3d;
+    border: 15px solid #e5e5e5;
+    border-radius: 60px;
+    padding: 1.75rem 1.75rem 3rem 1.75rem;
+    transition: 0.5s;
+}
+
+.portfolio__bloco:hover{
+    border-color: red;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.portfolio__img{
+    height: 300px;
+    width: 300px;
+    border-radius: 30px;
+}
+
+.portfolio__obra{
+    color:#e5e5e5;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    position: relative;
+    top: 1rem;
+}
+
+@media screen and (max-width: 1024px){
+    .portfolio__bloco{
+        margin-bottom: 3rem;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .portfolio__bloco:hover{
+        transform: none;
+    }
+}

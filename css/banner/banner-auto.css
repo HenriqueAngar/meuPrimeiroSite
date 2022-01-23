@@ -1,0 +1,53 @@
+.banner__auto{
+    display: flex;
+    position:  absolute;
+    left: 43%;
+    bottom: 5%;
+}
+
+@media screen and (max-width: 765px){
+    .banner__auto{
+        position:absolute;
+        left:35%;
+    }
+}
+
+
+@media screen and (max-width: 400px){
+    .banner__auto{
+        position:absolute;
+        left:23%;
+    }
+}
+
+.banner__auto-botao{
+    border: 2px solid #f9f9f9;
+    border-radius: 100%;
+    cursor: pointer;
+    height:15px;
+    padding: 0 7.5px;
+}
+
+.banner__auto-botao:hover{
+    background: #f9f9f9;
+}
+
+.banner__auto-botao:not(:last-child){
+    margin-right: 40px;
+}
+
+#radio1:checked ~ .banner__auto .b1{
+    background: #fefefe;
+}
+
+#radio2:checked ~ .banner__auto .b2{
+    background: #fefefe;
+}
+
+#radio3:checked ~ .banner__auto .b3{
+    background: #fefefe;
+}
+
+#radio4:checked ~ .banner__auto .b4{
+    background: #fefefe;
+}

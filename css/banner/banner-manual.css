@@ -1,0 +1,39 @@
+.banner__manual{
+    position:  absolute;
+    left: 43%;
+    bottom: 5%;
+}
+
+@media screen and (max-width: 765px){
+    .banner__manual{
+        position:absolute;
+        left:35%;
+    }
+}
+
+
+@media screen and (max-width: 400px){
+    .banner__manual{
+        position:absolute;
+        left:23%;
+    }
+}
+
+
+.banner__manual-botao{
+    border: 2px solid #f9f9f9;
+    border-radius: 100%;
+    cursor: pointer;
+    height:7.5px;
+    padding: 0 7.5px;
+    transition: 1s;
+}
+
+.banner__manual-botao:hover{
+    background: #f9f9f9;
+}
+
+.banner__manual-botao:not(:last-child){
+    margin-right: 40px;
+}
+

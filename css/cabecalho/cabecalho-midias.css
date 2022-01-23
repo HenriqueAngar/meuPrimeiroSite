@@ -1,0 +1,13 @@
+.cabecalho__midias{
+    position:absolute;
+    right:0;
+    bottom:0;
+}
+
+@media screen and (max-width:1000px){
+
+    .cabecalho__midias{
+        position: relative;
+        top: 15px;
+    }
+}

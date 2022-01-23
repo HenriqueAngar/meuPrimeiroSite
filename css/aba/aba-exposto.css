@@ -1,0 +1,33 @@
+.aba__exposto{
+    width:47%;
+}
+
+.aba__img{
+    border-radius: 30px;
+    height: 300px;
+    margin-top: 1.5rem;
+    left:1.5rem;
+    position: relative;
+    width: 300px;
+}
+
+.aba__obra{
+    color:#e5e5e5;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 2rem;
+    position: relative;
+    top: 1rem;
+}
+
+@media screen and (max-width: 768px){
+    .aba__exposto{
+        width: 100%;
+    }
+
+    .aba__img{
+        margin: 1.5rem auto;
+        justify-content: space-around;
+    }
+}

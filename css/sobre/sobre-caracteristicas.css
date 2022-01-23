@@ -1,0 +1,12 @@
+.sobre__caracteristicas{
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+@media screen and (max-width: 765px){
+    .sobre__caracteristicas{
+        display: block;
+        justify-content: none;
+    }
+}

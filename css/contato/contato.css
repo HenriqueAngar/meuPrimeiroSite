@@ -1,0 +1,15 @@
+.contato{
+    display: inline-flex;
+    height: auto;
+    min-height: calc(100vh - 2*166px);
+    min-width: 100%;
+    justify-content: space-between;
+    position:relative;
+    width: auto;
+}
+
+@media screen and (max-width: 1024px){
+    .contato{
+        display: block;
+    }
+}

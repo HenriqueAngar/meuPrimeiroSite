@@ -1,0 +1,24 @@
+
+.cabecalho__link a{
+    color: #404040;
+    display: inline;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin: 0 20px;
+    text-decoration: none;
+    text-decoration: underline;
+    transition:0.2s;
+}
+.cabecalho__link a:hover{
+    cursor: pointer;
+    color: #e09f3d;
+    font-size: 1.65rem;
+    text-decoration: underline;
+}
+
+@media screen and (max-width:400px){
+    .cabecalho__link{
+        font-size: 1.125rem;
+    }
+}

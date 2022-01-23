@@ -1,0 +1,38 @@
+.aba__oculto{
+    margin: 1rem 2rem 0 0 ;
+    width:40%;
+    position: relative;
+}
+
+.aba__texto{
+    color: #e5e5e5;
+    font-family: 'Merriweather', sans-serif;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+    text-align: justify;
+}
+
+@media screen and (max-width: 768px){
+    .aba__oculto{
+        width: fit-content;
+        margin: 1rem;
+    }
+}
+
+.aba__fechar{
+    border: 3px solid #e5e5e5;
+    border-radius: 25%;
+    color: #e5e5e5;
+    padding: 2px;
+    transition: 0.3s;
+    position: absolute;
+    right:10px;
+    width:14px;
+}
+
+.aba__fechar:hover{
+    border-color: red;
+    color: red;
+    cursor: pointer;
+}

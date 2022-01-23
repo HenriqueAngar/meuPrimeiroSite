@@ -1,0 +1,23 @@
+.contato__input, .contato__enviar{
+    border: 5px solid #e09f3d;
+    display: block;
+    margin: 0 1.5rem 1.5rem;
+}
+
+.contato__label, .contato__enviar{
+    color: #e09f3d;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.3rem;
+    font-weight: bold;
+    margin-left: 2rem;
+    transition: 1s;
+}
+.contato__input{
+    padding: 0.5rem 0 0 1rem;
+}
+
+.contato__enviar:hover{
+    border-color: red;
+    color: red;
+    transform: scale(1.5);
+}

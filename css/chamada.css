@@ -1,0 +1,35 @@
+.chamada__painel{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/imagens/projetar.jpg);
+    margin: -410px auto;
+    padding: 410px 0 0;
+    position: relative;
+    top: -410;
+    width:100%;
+}
+
+.chamada__texto{
+    bottom: 150px;
+    color: #e09f3d;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 4rem;
+    font-weight: bold;
+    margin: auto;
+    position: relative;
+    text-shadow: 7px 7px 5px #282828;
+    text-align: center;
+}
+
+@media screen and (max-width: 1024px){
+    .chamada__painel{
+        padding: 75px 0;
+        top:0;
+        margin: 0 auto;
+    }
+
+    .chamada__texto{
+        bottom: -25px;
+        font-size: 2.25rem;
+    }
+}

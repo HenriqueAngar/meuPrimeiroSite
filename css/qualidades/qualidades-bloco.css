@@ -1,0 +1,15 @@
+.qualidades__bloco{
+    display: inline-flex;
+}
+
+.qualidades__vetor{
+    max-width: 200px;
+    width: auto;
+}
+
+@media screen and (max-width:1024px){
+    .qualidades__vetor{
+        max-width: 100px;
+        width: auto;
+    }
+}

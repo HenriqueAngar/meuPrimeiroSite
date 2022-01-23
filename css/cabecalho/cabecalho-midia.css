@@ -1,0 +1,30 @@
+.cabecalho__midia{
+    display: inline;
+    margin: 0 10px;
+    position:relative;
+    right:0;
+}
+
+.cabecalho__midia-img{
+    max-width:13mm;
+    max-height: 13mm;
+    width:auto;
+    height:auto;
+    transition: 0.5s;
+}
+
+.cabecalho__midia-img:hover{
+    max-width:17mm;
+    max-height: 17mm;
+    width:auto;
+    height:auto;
+}
+
+@media screen and (max-width:1024px){
+    .cabecalho__midia-img{
+        max-width:7.5mm;
+        max-height:7.5mm;
+        width:auto;
+        height:auto;
+    }
+}
