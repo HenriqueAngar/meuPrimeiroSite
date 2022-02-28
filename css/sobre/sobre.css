@@ -9,26 +9,37 @@
 }
 
 .sobre__img{
-    background-image: url(/imagens/desempregado.png);
-    background-repeat: no-repeat;
-    background-size: cover;
     height: 650px;
     margin: auto 40px;
+    position: relative;
     width: 90%;
 }
 
-@media screen and (max-width: 1024px){
+.sobre__img-conteudo{
+    max-height: 60vh;
+    max-width: 100vw;
+    height: auto;
+    width: auto;
+}
+
+@media screen and (max-width: 1200px){
     .sobre{
         flex-direction: column;
-        height: 1200px;
-        margin:0;
-        width: calc(99% -30px);
+        max-height: fit-content;
+        height: auto;
     }
 
     .sobre__img{
-        border-radius: 0;
-        margin:0;
-        max-width:calc(98% -30px);
+        height: fit-content;
+        margin: auto;
+        max-width: calc(100% - 40px);
+        width: auto;
+    }
+
+    .sobre__img-conteudo{
+        height: auto;
+        margin-top: 20px;
+        max-width: 80vw;
         width: auto;
     }
 }

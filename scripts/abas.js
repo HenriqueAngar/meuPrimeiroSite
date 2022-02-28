@@ -7,18 +7,18 @@ function criaFundo (){
     aba.appendChild(fundo);
 }
 
-function criaCaixa (){
+function criaCaixa (num){
     var hidden = document.querySelector(".aba__hidden");
 
     var caixa = document.createElement('div');
-    caixa.classList.add('aba__box');
+    caixa.classList.add('aba__box-'+num);
 
     hidden.appendChild(caixa);
 }
 
-function criaDivisoes (){
+function criaDivisoes (num){
 
-    var container = document.querySelector(".aba__box");
+    var container = document.querySelector(".aba__box-"+num);
 
     var caixaExposto = document.createElement("div");
     caixaExposto.classList.add("aba__exposto");

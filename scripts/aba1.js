@@ -6,8 +6,8 @@ abreAba1.addEventListener("click", function(evento){
     evento.preventDefault;
 
     criaFundo ();
-    criaCaixa ();
-    criaDivisoes ();
+    criaCaixa (1);
+    criaDivisoes (1);
     poeConteudoExposto1 ();
     poeConteudoOculto1 ();
     fecharAba();
