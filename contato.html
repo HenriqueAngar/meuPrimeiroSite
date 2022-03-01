@@ -59,7 +59,7 @@
                 <div class="contato__inputs">
                     <h1 class="contato__titulo">Contato</h1>
                     <h2 class="contato__info">Para entrar em contato basta preencher os campos abaixo, ou clicar nas opções alternativas:</h2>
-                    <form class="contato__form">
+                    <form class="contato__form" id="formulario" method="get" action="mailto:devhenriqueangar@gmail.com">
 
                         <label for="nomeSobrenome" class="contato__label"> Nome e Sobrenome</label>
                         <input type="text" id="nomeSobrenome" class="contato__input" required size="40">
@@ -72,6 +72,9 @@
 
                         <label for="mensagem" class="contato__label">Digite Sua Mensagem</label>
                         <textarea cols="40" rows="10" id="mensagem" class="contato__input" required></textarea>
+
+                        <input type="hidden" name="Subject" value="Contato_Site">
+                        <input type="hidden" name="Body" value="">
 
                         <input type="submit" value="Enviar formulário" class="contato__enviar">
                     </form>
@@ -114,5 +117,7 @@
             <img src="imagens/logo2.png" alt="Logotipo da Hangar Engenharia" class="rodape__logo">
             <p class="rodape__texto">&copy Henrique Angar - 2021</p>
         </footer>
+
+        <script src="scripts/mailMe.js"></script>
     </body>
 </html>
